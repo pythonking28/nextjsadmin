@@ -10,7 +10,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={inter.style}>
-        <NavLinks />
         <div>{children}</div>
       </body>
     </html>
